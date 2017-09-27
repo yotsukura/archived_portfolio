@@ -1,0 +1,139 @@
+.title {
+/*  margin: auto;*/
+  color: #ffffff
+}
+
+.profile-card.mdl-card {
+  width: 320px;
+  height: 320px;
+  margin:0px auto;
+}
+.profile-card > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../images/profile.png') bottom right 15% no-repeat #46B6AC;
+  background-size:320px auto;
+}
+.text-center {
+  text-align: center;
+}
+.design-image {
+  background: url('../images/design.jpg') center center no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.spacer {
+  height: 128px;
+}
+.art-image {
+  background: url('../images/openFrameworks_Ellipse_comp.png') center center no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-element {
+  margin: 0 auto;
+}
+
+.spacerS {
+  height: 64px;
+}
+
+.navigation-hover .mdl-navigation__link {
+  color: #e0e0e0;
+}
+.navigation-hover .mdl-navigation__link:hover {
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 4px solid #ffffff;
+}
+
+.back {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: white;
+  z-index: 9999;
+}
+
+.mdl-cell {
+  display: flex;
+
+  box-sizing: border-box;
+  background-color: #fafafa;/*bdbdbd*/
+  height: 200px;
+  /*padding-left: 8px;
+  padding-top: 4px;*/
+  color: white;
+}
+
+.image-card.mdl-card {
+  margin:auto;
+}
+.icon00 {background: url('../images/design/icon1.png') center / contain; background-repeat: no-repeat;}
+.icon01 {background: url('../images/design/icon2.png') center / contain; background-repeat: no-repeat;}
+.icon02 {background: url('../images/design/icon3.png') center / contain; background-repeat: no-repeat;}
+.icon03 {background: url('../images/design/icon4.png') center / contain; background-repeat: no-repeat;}
+.icon04 {background: url('../images/design/icon5.png') center / contain; background-repeat: no-repeat;}
+.icon05 {background: url('../images/design/icon6.png') center / contain; background-repeat: no-repeat;}
+
+.image00 {background: url('../images/design/iPadApp00.jpg') center / cover;}
+.image01 {background: url('../images/design/iPadApp01.jpg') center / cover;}
+.image02 {background: url('../images/design/iPadApp02.jpg') center / cover;}
+.image03 {background: url('../images/design/iPadApp03.jpg') center / cover;}
+.image04 {background: url('../images/design/MacApp.jpg') center / cover;}
+.image05 {background: url('../images/design/MaterialDesign00.jpg') center / 50%; background-repeat: no-repeat;}
+.image06 {background: url('../images/design/MaterialDesign01.jpg') center / 50%; background-repeat: no-repeat;}
+.image07 {background: url('../images/design/MaterialDesign02.jpg') center / 50%; background-repeat: no-repeat;}
+.image08 {background: url('../images/design/MaterialDesign03.jpg') center / 50%; background-repeat: no-repeat;}
+.image09 {background: url('../images/design/OD3.jpg') center / 70%;}
+.image10 {background: url('../images/design/RackEffect.jpg') center / cover;}
+.image11 {background: url('../images/design/Shoes.jpg') center / cover;}
+
+.image-card > .mdl-card__actions {
+  height: 32px;
+  padding: auto;
+  background: rgba(255, 255, 255, 0.3);
+}
+.image-card__filename {
+  font-size: 14px;
+  font-weight: 500;
+}
+.mdl-grid {
+  max-width: 900px;
+}
+
+.art-video {
+  max-width: 750px;
+  margin: auto;
+}
+
+.art-gif {
+  background: url('../images/oF4.gif') center center no-repeat;
+  background-size: cover;
+  max-width: 750px;
+  height: 400px;
+  margin: auto;
+}
+
+.art-js {
+    border:none;
+    margin-left: 300px;
+}
+
+.wrap-art-js {
+    margin:10px 0;
+}
+.wrap-art-js iframe {
+    margin: auto;
+    display:block;
+        text-align: center;
+        background: #000;
+}
